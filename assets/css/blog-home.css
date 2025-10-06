@@ -4,3 +4,43 @@
   box-sizing: border-box;
 }
 
+ /* Header Start */
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
+
+.header-container{
+  margin-inline: auto;
+  width: 1110px;
+}
+
+.header-right{
+  align-items: center;
+  display: flex;
+  gap: 40px;
+}
+
+.header-user{
+  a{
+    display: flex;
+    align-items: center;
+  }
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.header-user img{
+  border-radius: 50%;
+}
+/* Header End */
+
+/* Hero Content Start */
+.hero-container{
+  width: 1440px;
+  margin-inline: auto;
+  margin-bottom: 80px;
+}
