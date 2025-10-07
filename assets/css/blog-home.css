@@ -174,7 +174,7 @@ header {
 
 /* Featured V2 Section Start */
 .featured-v2-section {
-  margin-bottom: 136px;
+  margin-bottom: 72px;
 }
 
 .featured-v2-cards>div {
@@ -184,7 +184,6 @@ header {
 }
 
 .featured-v2-section div>img {
-  width: 400px;
   margin-bottom: 56px;
 }
 
@@ -229,13 +228,13 @@ header {
   letter-spacing: 0px;
 }
 
-.btn{
+.btn {
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
 }
 
-.featured-v2-section a {
+.btn a {
   text-decoration: none;
   background-color: #0D6EFD;
   color: white;
@@ -248,6 +247,121 @@ header {
   letter-spacing: 0px;
   text-align: center;
 }
+
 /* Featured V2 Section End */
 
 /* Cta v2 Section Start */
+.cta-v2 {
+  background: url(../img/cta-2.png) no-repeat;
+  border-radius: 12px;
+  height: 354px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.cta-v2-section {
+  width: 400px;
+}
+
+.cta-v2-section h2 {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.4px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.cta-v2-section img {
+  margin-bottom: 10px;
+}
+
+.cta-v2-section p {
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+/* Cta V2 Section End */
+
+/* Footer Start */
+.footer-top {
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+  margin-bottom: 25px;
+}
+
+.footer {
+  margin-inline: auto;
+  width: 1100px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 100px;
+  margin-block: 72px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+}
+
+.footer-links ul ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 12px;
+}
+
+.footer-links>ul>li>a {
+  color: black;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-decoration: none;
+}
+
+.footer-links ul ul li a {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  color: #807E7E;
+  text-decoration: none;
+}
+
+.footer-links p {
+  text-align: end;
+  margin-bottom: 25px;
+}
+
+.footer-links img {
+  height: 48px;
+  width: 340px;
+} 
+
+/* Footer Bottom */
+.footer-bottom {
+  width: 1100px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 45px;
+}
+/* Footer Bottom */
+
+/* Footer End */
